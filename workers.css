@@ -1,0 +1,85 @@
+/* ── Блок "Наши сотрудники" ── */
+.team {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 60px 60px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team__title {
+  font-size: 48px;
+  font-weight: 800;
+  color: #1a1a1a;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.team__slider {
+  width: 580px;
+  border-radius: 8px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+}
+
+.team__card-top {
+  height: 6px;
+  background-color: #e8503a;
+}
+
+.team__card-body {
+  padding: 40px 50px;
+  background-color: #ffffff;
+}
+
+.team__member {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.team__avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.team__name {
+  font-size: 22px;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+.team__desc {
+  font-size: 16px;
+  color: #aaaaaa;
+  text-align: center;
+  line-height: 1.6;
+  padding: 20px 0 40px;
+}
+
+.team__dots {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-bottom: 30px;
+}
+
+.team__dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #dddddd;
+}
+
+.team__dot.active {
+  background-color: #e8503a;
+  border: 2px solid #e8503a;
+  width: 14px;
+  height: 14px;
+}
